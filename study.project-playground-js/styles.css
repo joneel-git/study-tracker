@@ -1,0 +1,74 @@
+/* Example using Normalize.css */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+.mobile-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #d3cece;
+  height: 500px;
+  color: black;
+  border-radius: 10px;
+  margin-top: 2%;
+  padding-top: 40px;
+  
+}
+/* row with the columns */
+.row {
+  border: 2px solid red;
+  margin-top: 20px;
+  margin-block: auto 20px;
+  top: 12%;
+  margin: 12px;
+  display: grid;
+  /* if you want to adjust columns */
+  grid-template-columns: 42% 50%;
+  grid-template-rows: 100px;
+}
+/* buttons--------------- */
+button {
+  margin-left: 10%;
+  background-color: #e7e5e5;
+  color: #000000;
+  float: right;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+#big {
+  height: 60px;
+  width: 100px;
+}
+#small {
+  margin-top: 30px;
+  height: 40px;
+  width: 90px;
+}
+#interactive-fun {
+  padding-top: 12px;
+}
+/* buttons--------------- */
+
+.col {
+  border: 3px solid green;
+  width: 100%;
+}
+
+
+/*for all other webbrowsers*/
+@media screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px */
+  body {
+    /* Adjust styles for smaller screens */
+    font-size: 17px !important;
+  }
+  button {
+    margin-left: 10%;
+    font-size: 15px;
+  }
+}
+/*trying to add edge support later*/
+@supports (-ms-ime-align: auto) {
+  body {
+    font-size: 22px;
+  }
+}

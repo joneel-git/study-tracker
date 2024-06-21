@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessing the dom</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="assets/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Top Navigation Menu -->
+    <nav class="navbar">
+      <div class="brand-title">Brand Name</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="first-container">hello</div>
+
+    <!-- simulate smartphone / tablet -->
+    <div class="mobile-container">
+      <!-- first row -->
+      <div class="row">
+        <button type="button" id="small" onclick="fun1()">click me</button>
+        <p id="swappDemo">hello demo</p>
+        <!--  -->
+      </div>
+
+      <!-- new row -->
+      <div class="row">
+        <button type="button" id="small" onclick="fun2()">click me</button>
+        <p id="interactive-fun">click the button for interactive fun</p>
+        <!--  -->
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="task.js"></script>
+  </body>
+</html>
