@@ -1,0 +1,15 @@
+﻿@model List<StudentExerciseMVC.Models.MovieViewModel>
+@*
+    Navigation
+     /Movie/Movies
+*@
+<h1>Movies</h1>
+<p>This is the index page of Movies</p>
+
+<ul>
+    @foreach(var movie in Model)
+    {
+        <li>Title: @movie.MovieTitle Director: @movie.Director (@movie.Year)</li>
+    }
+    
+</ul>
