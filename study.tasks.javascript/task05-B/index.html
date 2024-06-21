@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document object model</title>
+    <link rel="stylesheet" href="testi.css" />
+  </head>
+  <body>
+    <header><h1>Roses</h1></header>
+    <!--  -->
+    <div class="dropDown">
+      <form>
+        <label>Choose color:</label>
+        <select id="ImageList" onchange="displaySelectedValue()">
+          <option value="yellow.jpg">Yellow</option>
+          <option value="red.jpg">Red</option>
+          <option value="pink.jpg">Pink</option>
+        </select>
+      </form>
+      <p>
+        <img
+          id="imageArea"
+          src="yellow.jpg"
+          onclick="text()"
+          alt="Selected ColorImage"
+        />
+      </p>
+      <div id="displayText"></div>
+    </div>
+    <!--  -->
+    <script src="main.js"></script>
+  </body>
+</html>

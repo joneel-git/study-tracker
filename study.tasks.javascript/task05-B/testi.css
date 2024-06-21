@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+}
+.dropDown {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  overflow: hidden;
+  padding: 1rem 1rem;
+  list-style: none; /* Just for myList */
+}
+
+.menus {
+  margin-bottom: 40px; /* just for space with flower and picture */
+}
+
+#ImageList {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+#imageArea {
+  width: 150px;
+}
+
+#imageArea {
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+#imageArea:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+#displayText {
+  width: 200px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-left: auto;
+}
