@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: lightblue; */
+}
+
+table {
+  border-collapse: collapse;
+  height: 60%;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+table {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+th, /*table heading*/
+td {
+  /*table data text inside cell*/
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+span {
+  /*grey area in the cells*/
+  margin: 3px;
+  background-color: #eee;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+#operator {
+  background-color: #eee;
+}
+#description{
+  background-color: #eee;
+}
+#example {
+  background-color: #eee;
+}
+#returnedValue {
+  background-color: #eee;
+}
+thead {
+  background-color: #f2f2f2;
+}
+
+.image-container{
+  text-align: center;
+}
+
+/* Add a media query for screens smaller than 416px */
+@media (max-width: 800px) {
+  table {
+    width: 100%; /* Adjust this value as needed */
+    font-size: 10px; /* Reduce font size for smaller screens */
+    /* You can add more specific styles or adjustments here if needed */
+  }
+  td {
+    overflow-x: auto;
+  }
+}
+@media (max-width: 700px) {
+  table {
+    width: 100%; /* Adjust this value as needed */
+    
+    /* You can add more specific styles or adjustments here if needed */
+    margin: 20px;
+  }
+  td {
+    overflow-x: auto;
+    font-size: 13px; /* Reduce font size for smaller screens */
+  }
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 699px) {
+  /* at media Max-width then do this change */
+  table {
+    width: 90%;
+    font-size: 10px;
+  }
+}
+@media (max-width: 560px) {
+  /* at media Max-width then do this change */
+  table {
+    width: 90%;
+    font-size: 10px;
+  }
+}
+
+/* when the browser is the absolut min width at 333.33px */
+@media (max-width: 350px) {
+  tr,
+  td {
+    /* then switch to 10px for read abillity */
+    font-size: 10px;
+  }
+}
