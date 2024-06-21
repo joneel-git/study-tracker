@@ -1,0 +1,27 @@
+body {
+   background-color: #a39797;
+}
+nav {
+    background-color: rgb(83, 88, 88);
+    
+}
+#carouselExampleCaptions{
+    color: black;
+}
+
+.nav-link{
+    color: white;
+}
+.carousel-item img {
+    display: block;
+        height: auto;
+        max-width: 70%;
+        line-height: 1;
+        margin:auto;
+        width: 70%; 
+}
+.card{
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
