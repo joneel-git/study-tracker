@@ -22,7 +22,7 @@ Welcome to my school study repository! Here's a breakdown of the topics and fold
 
 5. **Project Playground (JavaScript)**
    - Fun projects and experiments using JavaScript.
-   - Interactive web elements, animations, and games.
+   - Interactive web elements.
 
 6. **SQL Sample Script**
    - SQL queries and database-related content.
